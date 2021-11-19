@@ -9,5 +9,5 @@
 * save volume as TIFF or .raw image
 ### Extracting a mesh from a segmentation stack (MeVisLab)
 1. use [this](https://github.com/jakobtroidl/connectomics-hacks/blob/main/seg-stack-to-mesh.mlab) MeVisLab network
-2. load your volume as a TIFF file into the `image load` module
-3. set the segmentation id you want to extract as a mesh in the `threshold` module
+2. load your volume as a TIFF file into the [`Image Load`](https://mevislabdownloads.mevis.de/docs/current/MeVisLab/Standard/Documentation/Publish/ModuleReference/ImageLoad.html) module
+3. set the segmentation id you want to extract as a mesh in the [`Threshold`](https://mevislabdownloads.mevis.de/docs/current/MeVisLab/Standard/Documentation/Publish/ModuleReference/Threshold.html) module
